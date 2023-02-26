@@ -49,3 +49,17 @@ ease-in-out;}
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#neon-text {
+  background: linear-gradient(to right, #ff0066, #ff7f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 0 0 20px #ff0000,
+               0 0 40px #ff0000,
+               0 0 60px #ff0000,
+               0 0 80px #000000,
+               0 0 100px #000000,
+               0 0 120px #000000,
+               0 0 140px #000000;
+}

@@ -65,4 +65,7 @@ ease-in-out;}
                0 0 120px #000000,
                0 0 140px #000000;
 }
+#text-to-increase {
+  font-size: 16px; /* initial font size */
+}
 

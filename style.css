@@ -5,9 +5,12 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-fmily:'Poppins',
+    sans-serif;
 }
 
 body{
+  display: flex;
  background-color: black;
  color: red;
  text-align: center;

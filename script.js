@@ -12,3 +12,16 @@ setInterval(function() {
 	var element = document.getElementById("neon-text");
 	element.style.opacity = (element.style.opacity == 0 ? 1 : 0);
 }, 500);
+const increaseFontSizeButton = document.getElementById('increase-font-size');
+const textToIncrease = document.getElementById('text-to-increase');
+
+increaseFontSizeButton.addEventListener('click', function() {
+  // get current font size
+  let fontSize = parseInt(window.getComputedStyle(textToIncrease).getPropertyValue('font-size'));
+  
+  // increase font size by 2px
+  fontSize += 2;
+  
+  // set new font size
+  textToIncrease.style.fontSize = fontSize + 'px';
+});
